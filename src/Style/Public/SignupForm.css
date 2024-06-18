@@ -1,0 +1,43 @@
+/* Inputs */
+.signupform {
+    margin-left: 1rem;
+}
+
+.input {
+    display: block;
+    width: 30%;
+    padding: 10px;
+    margin: 2px;
+    border: 1px solid #ffcc00;
+    border-radius: 4px;
+}
+
+.input-create {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+.input-create:hover {
+    background-color: red;
+}
+
+p {
+    margin: 1rem;
+}
+
+@media (max-width: 768px) {
+    .input {
+        width: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    .input {
+        width: 90%;
+    }
+}

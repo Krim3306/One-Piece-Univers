@@ -1,0 +1,80 @@
+/* General page container */
+* {
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation links */
+.link-create-nav {
+    list-style-type: none;
+    text-align: center;
+}
+
+.link-create-li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.link-to-create {
+    text-decoration: none;
+    color: #007BFF;
+    transition: color 0.5s;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.link-to-create:hover {
+    color: red;
+}
+
+/* User list container */
+.admin {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin: 10px auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    max-width: 600px;
+}
+
+/* Username styling */
+.admin-name {
+    margin: 0;
+    color: #333;
+}
+
+/* Form styling within the user list */
+.admin-delete-form {
+    margin-top: 10px;
+}
+
+/* Buttons within the user list */
+.amdin-delete-submit {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.amdin-delete-submit:hover {
+    background-color: #c9302c;
+}
+
+/* Link within the user list */
+.admin-update-link {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.admin-update-link:hover {
+    color: #007BFF;
+}
+
+@media (max-width: 480px) {
+    .admin  {
+        width: 75%;
+    }
+}

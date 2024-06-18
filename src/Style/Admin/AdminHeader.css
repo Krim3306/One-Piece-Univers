@@ -1,0 +1,29 @@
+/* Container for the entire header */
+.admin-navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Links inside the list items */
+.admin-page a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+/* Change background color on hover */
+.admin-page a:hover {
+    background-color: #111;
+}
+
+/* Active link - you can customize this further */
+.admin-page a.active {
+    background-color: #4CAF50;
+    color: white;
+}

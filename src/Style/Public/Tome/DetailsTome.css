@@ -1,0 +1,48 @@
+.details-tomes {
+    padding: 20px;
+    margin: 2rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px black;
+    text-align: center;
+}
+
+.details-tome {
+    font-size: 1rem;
+}
+
+.details-tome::first-letter {
+    color: red;
+    font-size: 5rem;
+}
+
+.detail-tome-title {
+    color: black;
+    text-align: center;
+}
+
+.detail-tome-title::first-letter {
+    color: red;
+    font-size: 2rem;
+}
+
+.other-detail-tome {
+    font-size: 1rem;
+    color: black;
+    text-shadow: 0 2px 4px #ffcc00;
+}
+
+.other-detail-tome::first-letter {
+    color: red;
+    font-size: 1.5rem;
+}
+
+.no-tome-found {
+    font-size: 2rem;
+}
+
+.no-tome-found::first-letter {
+    color: red;
+    font-size: 3rem;
+    text-transform: capitalize;
+}

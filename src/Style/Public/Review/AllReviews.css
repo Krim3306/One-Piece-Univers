@@ -1,0 +1,45 @@
+.reviews {
+    padding: 20px;
+    margin: 2rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px red;
+}
+
+.review {
+    padding: 5px;
+    margin: 0.5rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px red;
+}
+
+.review-username {
+    font-size: 1.5rem;
+}
+
+.review-username::first-letter {
+    color: red;
+    font-size: 1.75rem;
+    text-transform: capitalize;
+}
+
+.review-content {
+    font-size: 1rem;
+}
+
+.review-content::first-letter {
+    color: red;
+    font-size: 1.25rem;
+    text-transform: capitalize;
+}
+
+.no-review {
+    font-size: 1rem;
+}
+
+.no-review::first-letter {
+    color: red;
+    font-size: 1.25rem;
+    text-transform: capitalize;
+}

@@ -1,0 +1,47 @@
+.details-topics {
+    padding: 20px;
+    margin: 2rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px black;
+    text-align: center;
+}
+
+.details-topic {
+    font-size: 1rem;
+}
+
+.details-topic::first-letter {
+    color: red;
+    font-size: 5rem;
+}
+
+.detail-topic-title {
+    color: black;
+    text-align: center;
+}
+
+.detail-topic-title::first-letter {
+    color: red;
+    font-size: 2rem;
+}
+
+.other-detail-topic {
+    font-size: 1rem;
+    color: black;
+}
+
+.other-detail-topic::first-letter {
+    color: red;
+    font-size: 1.5rem;
+}
+
+.no-topic-found {
+    font-size: 2rem;
+}
+
+.no-topic-found::first-letter {
+    color: red;
+    font-size: 3rem;
+    text-transform: capitalize;
+}

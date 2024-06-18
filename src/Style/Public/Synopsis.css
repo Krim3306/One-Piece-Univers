@@ -1,0 +1,55 @@
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 1rem auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px black;
+}
+
+main h2, main h3, main h4 {
+    color: black;
+    text-align: center;
+}
+
+/* Sélectionne la première lettre */
+/* d'un élément <p> */
+main h2::first-letter {
+    color: red;
+    font-size: 2rem;
+  }
+
+main h3::first-letter {
+    color: red;
+    font-size: 2rem;
+  }
+
+main h4::first-letter {
+    color: red;
+    font-size: 2rem;
+  }
+
+main p {
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+/* Sélectionne la première lettre */
+/* d'un élément <p> */
+main p::first-letter {
+    color: red;
+    font-size: 2rem;
+  }
+
+  /* Responsive Design */
+@media (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    main {
+        padding: 5px;
+    }
+}

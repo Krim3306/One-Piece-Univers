@@ -1,0 +1,21 @@
+.last-chapter {
+    margin: 1rem;
+}
+
+.last-chapter-title {
+    margin: 1rem;
+    font-size: 2rem;
+    color: white;
+    text-shadow: red 1px 0 10px;;
+}
+
+.mangaplus-link {
+    margin: 1rem;
+
+}
+
+.last-chapter-link {
+    margin: 1rem;
+    color: black;
+    text-shadow: red 1px 0 10px;;
+}
